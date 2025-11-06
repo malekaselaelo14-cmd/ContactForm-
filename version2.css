@@ -1,0 +1,99 @@
+nav{
+    padding: 30px;
+}
+ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+}
+li:hover{
+    color: teal;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+.profile{
+    width: 80%;
+    position:relative;
+    margin: auto;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+.profile-image img{
+    float:left;
+    width: 100%;
+    height: auto;
+}
+.profile-details, .profile-image{
+    float: left;
+    width: 47%;
+    background-color: white;
+    padding: 5px;
+}
+.profile-container{
+    width: 50%;
+    position: relative;
+    margin: 3% auto;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+}
+.profile{
+    float: left;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border-radius:20px ;
+}
+.content{
+    background: linear-gradient(45deg,rgb(45,0,128), skyblue);
+    width: 100%;
+    height: 65vh;
+    float: left;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    
+
+    
+
+}
+form input, form textarea, form button {
+            width: 85%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
